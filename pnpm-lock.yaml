@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@tiny-placeholder/react':
-    specifier: ^1.0.0
-    version: 1.0.1(react-dom@18.3.1)(react@18.3.1)
+    specifier: ^1.0.4
+    version: 1.0.4(react-dom@18.3.1)(react@18.3.1)
   react:
     specifier: ^18.3.1
     version: 18.3.1
@@ -726,17 +726,17 @@ packages:
     dev: true
     optional: true
 
-  /@tiny-placeholder/core@1.0.0:
-    resolution: {integrity: sha512-mOBuuHxqBpDqLUb87VxkeE8AChdxUADLIQvog9yA82sk1/HmyFHnBNUc4IpTCEinkNoeC2IJWxnGv+u7p7H7mA==}
+  /@tiny-placeholder/core@1.0.4:
+    resolution: {integrity: sha512-7X2M+5RTMh7AMfbrC+emNcTw+b6gmdAeevZJw8WkRizC8h/PQ6oMEP9Gy8nrSngZE5KetP9c/dhnmipVNxX6Wg==}
     dev: false
 
-  /@tiny-placeholder/react@1.0.1(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-4Yhro6ABzwc8SWFQO6n78wpQWQsjNU9ffmVMh83yrt6OJXyciB9hsIOQf+371YA3LfoN0MfDb3t71F0kKb/4AQ==}
+  /@tiny-placeholder/react@1.0.4(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-ioC+DKHQFpcVtNKgl0Sx+c7J3h6jongJcdAZrRdK7D+V9LSW+pClnS6+nftyQqjYazirQtE7n+1yCs820/3WfQ==}
     peerDependencies:
       react: ^18.3.1
       react-dom: ^18.3.1
     dependencies:
-      '@tiny-placeholder/core': 1.0.0
+      '@tiny-placeholder/core': 1.0.4
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
     dev: false
